@@ -63,10 +63,10 @@
 //#define PP_VU_DRAW_ARRAY_SIZE 513  //should be multiples of 3
 #define PP_VU_DRAW_ARRAY_SIZE 10002  //should be multiples of 3
 // memory mapping
-//   HP0 is mapped to 0010_0000 to 3fff_ffff, 512MB(0-1fff_ffff)
+//   Main Memory is mapped to 0010_0000 to 3fff_ffff, 512MB(0-1fff_ffff)
 //   (Accessible to all interconnect masters)
 //   Polyphony uses upper-half 256MB 1000_0000-1fff_ffff
-// current register can hold bit[23:20]  00x0_0000
+
 // vertex buffer topaddress
 #define VTX_TOP0_ADRS 0x11000000
 #define VTX_TOP1_ADRS 0x12000000
@@ -87,7 +87,7 @@
 
 ////////////////// Address Table /////////////////////////////////
 // Base Address
-#define PP_BASE 0x43c00000
+#define PP_BASE 0x40000000
 #define PP_SYSTEM_BASE PP_BASE
 #define PP_RASTER_BASE PP_BASE+0x200
 #define PP_VERTEX_BASE PP_BASE+0x300
