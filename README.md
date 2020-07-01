@@ -33,6 +33,7 @@ cd sim_work
 ../bin/run_iv.sh ../scenario/3d/simple_triangle.v 
 ```
 After finishing the simulation, VGA rendering result(result.bmp) will be generated.
+
 ![simulation result](doc/images/sim_result_1.bmp)
 
 ### simple texture-mapped triangle rendering
@@ -41,6 +42,7 @@ cd sim_work
 ../bin/run_iv.sh ../scenario/3d/simple_triangle_tex.v 
 ```
 After finishing the simulation, VGA rendering result(result.bmp) will be generated.
+
 ![simulation result](doc/images/sim_result_2.bmp)
 
 # Running the demo on FPGA board

@@ -151,13 +151,12 @@ endtask
 
 task register_setup;
   begin
-    u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0004, 4'hf, 32'h00000000);      // frame0 offset
+        u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0004, 4'hf, 32'h00000000);      // frame0 offset
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0008, 4'hf, 32'h00010000);      // frame1 offset
 //        u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0014, 4'hf, 32'h00000002);      // color mode
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0014, 4'hf, 32'h00000000);      // color mode
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0028, 4'hf, 32'h00000001);      // int mask
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0200, 4'hf, 32'h00000000);      // 3d register
-        u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0200, 4'hf, 32'h00000000);      // dram access
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h0284, 4'hf, 32'h00000000);      // color offset
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h028c, 4'hf, 32'h00400000);      // depth offset
         u_axi_behavior.axi_single_write(`PP_BASE_ADDR+'h02ac, 4'hf, 32'h00000001);      // depth test en, LESS
