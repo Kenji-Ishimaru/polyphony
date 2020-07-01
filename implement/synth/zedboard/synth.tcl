@@ -116,12 +116,6 @@ set V_LIST "\
   ${RTL_ROOT_DIR}/fm_mic/fm_mic.v \
   ${RTL_ROOT_DIR}/fm_axi_m/fm_raw_fifo.v \
   ${RTL_ROOT_DIR}/fm_sys/fm_sys.v \
-  ${RTL_ROOT_DIR}/fm_hdmi/fm_vout_delay.v \
-  ${RTL_ROOT_DIR}/fm_hdmi/fm_ycbcr.v \
-  /home/chopin/tmp/polyphony_rtl_axi/opencores/i2c/trunk/rtl/verilog/i2c_master_defines.v \
-  /home/chopin/tmp/polyphony_rtl_axi/opencores/i2c/trunk/rtl/verilog/i2c_master_bit_ctrl.v \
-  /home/chopin/tmp/polyphony_rtl_axi/opencores/i2c/trunk/rtl/verilog/i2c_master_byte_ctrl.v \
-  /home/chopin/tmp/polyphony_rtl_axi/opencores/i2c/trunk/rtl/verilog/i2c_master_top.v
   ${RTL_ROOT_DIR}/pp_top.v \
   ../../rtl/${TOP_NAME}.v \
 "
