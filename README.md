@@ -75,10 +75,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 3D graphics Library Header Files
 This design utilizes GL, GLES, and GLU header files below.
 - GL
- - gl.h
- - glext.h
+  - gl.h
+  - glext.h
 - GLES
- - gl.h
- - glext.h
+  - gl.h
+  - glext.h
 - GLU
- - glu.h
+  - glu.h
