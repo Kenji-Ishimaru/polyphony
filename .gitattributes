@@ -1,3 +1,5 @@
-* linguist-vendored
+*     linguist-vendored
+*.c   linguist-vendored=false
+*.v   linguist-vendored=false
+*.sh   linguist-vendored=false
 doc/* linguist-documentation
-*.c linguist-vendored=false
