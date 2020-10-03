@@ -1,3 +1,2 @@
-doc/* linguist-documentation
 * linguist-vendored
 *.c linguist-vendored=false
