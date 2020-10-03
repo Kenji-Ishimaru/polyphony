@@ -1,3 +1,2 @@
 doc/* linguist-documentation
 *.txt linguist-vendored
-*.v   linguist-vendored=Verilog
