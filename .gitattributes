@@ -1,3 +1,4 @@
 doc/* linguist-documentation
 demo_appi/data/* linguist-vendored
+*.txt linguist-vendored
 *.v linguist-language=Verilog
